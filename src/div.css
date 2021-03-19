@@ -1,0 +1,15 @@
+.cell{
+    width: 60px;
+    height: 60px;
+    background-color: #cccccc;
+    border: 4px black solid;
+    margin: 2px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: large;
+}
+.myDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
