@@ -1,8 +1,8 @@
 .cell{
     width: 60px;
     height: 60px;
-    background-color: #cccccc;
-    border: 4px black solid;
+    background-color: #00FFFF;
+    border: 4px #FF00FF solid;
     margin: 2px;
     font-weight: bold;
     font-style: italic;
