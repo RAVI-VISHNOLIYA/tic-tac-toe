@@ -36,7 +36,7 @@ export default class App extends Component {
         copyGrid[0][0] + copyGrid[1][0] + copyGrid[2][0] === match ||
         copyGrid[0][1] + copyGrid[1][1] + copyGrid[2][1] === match ||
         copyGrid[0][2] + copyGrid[1][2] + copyGrid[2][2] === match ||
-        copyGrid[0][0] + copyGrid[1][1] + copyGrid[1][2] === match ||
+        copyGrid[0][0] + copyGrid[1][1] + copyGrid[2][2] === match ||
         copyGrid[0][2] + copyGrid[1][1] + copyGrid[2][0] === match
       ) {
         this.setState({
