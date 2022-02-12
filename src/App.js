@@ -58,7 +58,7 @@ export default class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Tic-Tok-Toe</h1>
+        <h1>Tic-Tac-Toe</h1>
         {this.state.grid.map((value, index) => (
           <Row
             key={index}
@@ -68,7 +68,7 @@ export default class App extends Component {
           />
         ))}
         {this.state.status !== "" ? <h1>{this.state.status}</h1>:<h1>It's Player {this.state.currentPlayer} Turn</h1>}
-        <button className='mybtn' onClick={this.palyAgain}><h2>Play Again</h2></button>
+        <button className='mybtn' onClick={this.palyAgain}><h2>Reset</h2></button>
       </div>
     );
   }
